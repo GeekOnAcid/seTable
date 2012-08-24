@@ -72,11 +72,3 @@ seTable <- function (X, xmin = NULL, xmax = NULL, labels = NULL, at = NULL,
   }
   STR
 }
-
-#example data
-x <- rnorm(100, mean = 0, sd = 2)
-y <- rnorm(100, mean = 1, sd = 2)
-z <- rnorm(100, mean = 1, sd = 0.5)
-X <- cbind(x, y, z)
-#produce seTable and output it in tex format in R console
-cat(seTable(X))
