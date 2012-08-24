@@ -1,9 +1,3 @@
-##seTable function draws a Tufte-style small table that shows a name of condition
-##and next to it plots small line representing standard error of the mean
-##with the dot representing the mean itself.
-##This function is based on qTable from package NMOF
-##http://cran.r-project.org/web/packages/NMOF/index.html
-
 seTable <- function (X, xmin = NULL, xmax = NULL, labels = NULL, at = NULL, 
                      unitlength = "5cm", linethickness = NULL, cnames = colnames(X), 
                      circlesize = 0.01, xoffset = 0, yoffset = 0, dec = 2L, filename = NULL) 
